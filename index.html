@@ -4,15 +4,96 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Web Studio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,700;1,700&family=Roboto:ital,wght@400,500,700;400,500,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <style>
+      body {
+        font-family: "Roboto", "Helvetica Neue", "Verdana", sans-serif;
+        color: #434455;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+      }
+
+      .page-nav .link {
+        color: #2e2f42;
+      }
+
+      .page-nav .link:hover,
+      .page-nav .link:focus {
+        color: #404bbf;
+      }
+
+      #cont {
+        color: #404bbf;
+        text-decoration: underline;
+      }
+
+      .footer {
+        color: #f4f4fd;
+        background-color: #2e2f42;
+      }
+
+      .header1 {
+        color: white;
+        font-weight: bold;
+        font-size: 56px;
+        letter-spacing: 0.02em;
+        line-height: 1.0714;
+        text-align: center;
+      }
+      .header2 {
+        font-weight: bold;
+        font-size: 36px;
+        letter-spacing: 0.02em;
+      }
+      .header3 {
+        font-weight: 500;
+        font-size: 20px;
+        letter-spacing: 0.02em;
+      }
+      .button {
+        background: #4d5ae5;
+        width: 169px;
+        height: 56px;
+        border: none;
+        border-radius: 4px;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        cursor: pointer;
+      }
+
+      .button:hover {
+        background: #404bbf;
+      }
+      .section1 {
+        background-color: #2e2f42;
+      }
+      .section2 {
+        background-color: #f4f4fd;
+      }
+      .team {
+        background-color: white;
+      }
+    </style>
   </head>
   <body>
     <header>
-      <a href="/">WebStudio </a>
+      <a href="#">
+        <img src="./images/Logo.jpg" alt="Logo" width="115" height="24" />
+      </a>
       <nav>
-        <ul>
-          <li><a href="#studio">Studio</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="#contact">Contact</a></li>
+        <ul class="page-nav">
+          <li><a href="#studio" class="link">Studio</a></li>
+          <li><a href="#portfolio" class="link">Portfolio</a></li>
+          <li><a href="#contact" class="link" id="cont">Contact</a></li>
         </ul>
         <address>
           <ul>
@@ -23,35 +104,37 @@
       </nav>
     </header>
     <main>
-      <section>
-        <h1 id="studio">Effective Solutions for Your Business</h1>
-        <input type="button" value="Order Service" />
+      <section class="section1">
+        <h1 class="header1" id="studio">
+          Effective Solutions for Your Business
+        </h1>
+        <input class="button" type="button" value="Order Service" />
       </section>
       <section>
         <ul>
           <li>
-            <h3>Strategy</h3>
+            <h3 class="header3">Strategy</h3>
             <p>
               Our goal is to identify the business problem to walk away with the
               perfect and creative solution.
             </p>
           </li>
           <li>
-            <h3>Punctuality</h3>
+            <h3 class="header3">Punctuality</h3>
             <p>
               Bring the key message to the brand's audience for the best price
               within the shortest possible time.
             </p>
           </li>
           <li>
-            <h3>Diligence</h3>
+            <h3 class="header3">Diligence</h3>
             <p>
               Research and confirm brands with the strongest digital growth
               opportunities and minimize risk.
             </p>
           </li>
           <li>
-            <h3>Technologies</h3>
+            <h3 class="header3">Technologies</h3>
             <p>
               Design practice focused on digital experiences. We bring forth a
               deep passion for problem-solving.
@@ -59,10 +142,10 @@
           </li>
         </ul>
       </section>
-      <section>
-        <h2>Our Team</h2>
+      <section class="section2">
+        <h2 class="header2">Our Team</h2>
         <ul>
-          <li>
+          <li class="team">
             <a href="/">
               <img
                 src="./images/mark-guerrero.jpg"
@@ -71,10 +154,10 @@
                 alt="Mark Guerrero photo"
               />
             </a>
-            <h3>Mark Guerrero</h3>
+            <h3 class="header3">Mark Guerrero</h3>
             <p>Product Designer</p>
           </li>
-          <li>
+          <li class="team">
             <a href="/">
               <img
                 src="./images/tom-ford.jpg"
@@ -83,10 +166,10 @@
                 alt="Tom Ford photo"
               />
             </a>
-            <h3>Tom Ford</h3>
+            <h3 class="header3">Tom Ford</h3>
             <p>Tom Ford Frontend Developer</p>
           </li>
-          <li>
+          <li class="team">
             <a href="/">
               <img
                 src="./images/camila-garcia.jpg"
@@ -95,10 +178,10 @@
                 alt="Camila Garcia photo"
               />
             </a>
-            <h3>Camila Garcia</h3>
+            <h3 class="header3">Camila Garcia</h3>
             <p>Marketing</p>
           </li>
-          <li>
+          <li class="team">
             <a href="/">
               <img
                 src="./images/daniel-wilson.jpg"
@@ -107,13 +190,13 @@
                 alt="Daniel Wilson photo"
               />
             </a>
-            <h3>Daniel Wilson</h3>
+            <h3 class="header3">Daniel Wilson</h3>
             <p>UI Designer</p>
           </li>
         </ul>
       </section>
       <section>
-        <h2 id="portfolio">Our Portfolio</h2>
+        <h2 class="header2" id="portfolio">Our Portfolio</h2>
         <ul>
           <li>
             <a href="/">
@@ -124,7 +207,7 @@
                 alt="banking app"
               />
             </a>
-            <h3>Banking App</h3>
+            <h3 class="header3">Banking App</h3>
             <p>App</p>
           </li>
           <li>
@@ -136,7 +219,7 @@
                 alt="cashless payment"
               />
             </a>
-            <h3>Cashless Payment</h3>
+            <h3 class="header3">Cashless Payment</h3>
             <p>Marketing</p>
           </li>
           <li>
@@ -148,7 +231,7 @@
                 alt="meditation app"
               />
             </a>
-            <h3>Meditation App</h3>
+            <h3 class="header3">Meditation App</h3>
             <p>App</p>
           </li>
           <li>
@@ -160,7 +243,7 @@
                 alt="taxi photo"
               />
             </a>
-            <h3>Taxi Service</h3>
+            <h3 class="header3">Taxi Service</h3>
             <p>Marketing</p>
           </li>
           <li>
@@ -172,7 +255,7 @@
                 alt="phone screen"
               />
             </a>
-            <h3>Screen Illustrations</h3>
+            <h3 class="header3">Screen Illustrations</h3>
             <p>Design</p>
           </li>
           <li>
@@ -184,14 +267,16 @@
                 alt="woman with orange sweater"
               />
             </a>
-            <h3>Online Courses</h3>
+            <h3 class="header3">Online Courses</h3>
             <p>Marketing</p>
           </li>
         </ul>
       </section>
     </main>
-    <footer>
-      <a id="contact" href="/">WebStudio</a>
+    <footer class="footer">
+      <a id="contact" href="#">
+        <img src="./images/Logo.jpg" alt="Logo" width="115" height="24" />
+      </a>
       <p>
         Increase the flow of customers and sales for your business with digital
         marketing & growth solutions.
