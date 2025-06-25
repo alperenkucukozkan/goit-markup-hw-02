@@ -44,6 +44,13 @@ body {
     font-size: 20px;
     letter-spacing: 0.02em;
 }
+.section1 {
+    background-color: #2e2f42;
+}
+
+.section2 {
+    background-color: #f4f4fd;
+}
 .button {
     background: #4d5ae5;
     width: 169px;
@@ -59,9 +66,3 @@ body {
 .button:hover {
     background: #404bbf;
  }
-.section1 {
-    background-color: #2e2f42;
-}   
-.section2 {
-    background-color: #f4f4fd;
-}
