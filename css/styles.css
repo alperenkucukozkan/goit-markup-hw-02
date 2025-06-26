@@ -16,9 +16,15 @@ body {
     color: #404bbf;
 }
 
-#cont {
+#cont:active {
     color: #404bbf;
     text-decoration: underline;
+}
+.address .link{
+    color:#434455
+}
+.address .link:hover{
+    color: #404bbf;
 }
 
 .footer {
@@ -31,7 +37,7 @@ body {
     font-weight: bold;
     font-size: 56px;
     letter-spacing: 0.02em;
-    line-height: 1.0714;
+    line-height: 60px;
     text-align: center;
 }
 .header2 {
@@ -61,8 +67,28 @@ body {
     line-height: 1.5;
     letter-spacing: 0.04em;
     cursor: pointer;
+    color: white;
 }
 
 .button:hover {
     background: #404bbf;
- }
+}
+
+ .color-webstudio {  
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    line-height: 21px;
+    letter-spacing: 0.03em;
+}
+ .web {
+     color: #4d5ae5;
+}
+
+ .studio {
+     color: #2e2f42;     
+     padding: 0.3px;
+}
+.studio2 {
+    color: #f4f4fd;
+    padding: 0.3px;
+}
