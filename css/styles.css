@@ -30,6 +30,7 @@ body {
 .footer {
     color: #f4f4fd;
     background-color: #2e2f42;
+    height: 312px;
 }
 
 .header1 {
@@ -39,11 +40,13 @@ body {
     letter-spacing: 0.02em;
     line-height: 60px;
     text-align: center;
+    height: 600px;
 }
 .header2 {
     font-weight: bold;
     font-size: 36px;
     letter-spacing: 0.02em;
+    text-align: center;
 }
 .header3 {
     font-weight: 500;
@@ -62,7 +65,7 @@ body {
     width: 169px;
     height: 56px;
     border: none;
-    border-radius: 4px;
+    border-radius: 10px;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
