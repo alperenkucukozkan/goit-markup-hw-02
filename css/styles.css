@@ -77,21 +77,27 @@ body {
     background: #404bbf;
 }
 
- .color-webstudio {  
+ .web {
     font-family: "Raleway", sans-serif;
     font-weight: bold;
     line-height: 21px;
     letter-spacing: 0.03em;
-}
- .web {
-     color: #4d5ae5;
+    color: #4d5ae5;
 }
 
  .studio {
-     color: #2e2f42;     
-     padding: 0.3px;
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    line-height: 21px;
+    letter-spacing: 0.03em;
+    color: #2e2f42;     
+    padding: 0.3px;
 }
 .studio2 {
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    line-height: 21px;
+    letter-spacing: 0.03em;
     color: #f4f4fd;
     padding: 0.3px;
 }
